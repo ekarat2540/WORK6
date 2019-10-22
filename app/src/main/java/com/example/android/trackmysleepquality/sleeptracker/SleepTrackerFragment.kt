@@ -60,6 +60,7 @@ class SleepTrackerFragment : Fragment() {
                 this.findNavController().navigate(
                         SleepTrackerFragmentDirections
                                 .actionSleepTrackerFragmentToSleepQualityFragment(night.nightId)
+
                 )
                 sleepTrackerViewModel.doneNavigating()
             }
